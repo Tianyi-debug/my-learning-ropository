@@ -21,6 +21,10 @@ Git Bash 是一个命令行工具，提供了类似于 Linux Shell 的环境，�
 
 ![image-20250908135746870](C:\Users\zty\AppData\Roaming\Typora\typora-user-images\image-20250908135746870.png)
 
+关于http和ssh的选择，http对远程仓库操作有限制，例如输入密码等，ssh密钥只需要初始配置一次即可
+
+
+
 ## GIT命令和操作步骤
 
 git init
@@ -102,3 +106,9 @@ git remote rm origin
 关联后，使用命令`git push -u origin master`第一次推送`master`分支的所有内容；
 
 此后，每次本地提交后，只要有必要，就可以使用命令`git push origin master`推送最新修改；
+
+**这上面是方式一，即本地已经有代码需要上传远程，下面是方式二，即远程有代码需要拉到本地**
+
+git clone git@github.com:weiyigeek/learngit.git
+
+git pull #从远程服务器仓库上拉取项目
