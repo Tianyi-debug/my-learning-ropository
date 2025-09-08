@@ -112,3 +112,5 @@ git remote rm origin
 git clone git@github.com:weiyigeek/learngit.git
 
 git pull #从远程服务器仓库上拉取项目
+
+当然了，在实际工作中，我们脑子里怎么可能记得一个几千行的文件每次都改了什么内容，不然要版本控制系统干什么。版本控制系统肯定有某个命令可以告诉我们历史记录，在Git中，我们用`git log`命令查看：
