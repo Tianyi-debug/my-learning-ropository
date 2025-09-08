@@ -23,7 +23,11 @@ Git Bash 是一个命令行工具，提供了类似于 Linux Shell 的环境，�
 
 关于http和ssh的选择，http对远程仓库操作有限制，例如输入密码等，ssh密钥只需要初始配置一次即可
 
+git fetch 和 git pull的区别
 
+git fetch是取来后做决定后要不要合并
+
+git pull是直接拉下来合并
 
 ## GIT命令和操作步骤
 
